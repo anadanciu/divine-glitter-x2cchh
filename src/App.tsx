@@ -1,5 +1,6 @@
 import "./styles.css";
-import reactImg from "./assets/react.svg";
+// import reactImg from "./assets/react.svg";
+import React from "react";
 
 const reactDescriptions: string[] = ["Fundamental", "Core", "Crucial"];
 
@@ -19,7 +20,7 @@ function Header() {
 
   return (
     <header className="App">
-      <img src={reactImg} alt="react Logo" />
+      {/* <img src={reactImg} alt="react Logo" /> */}
       <h1>Hello CodeSandbox</h1>
       <h2> {description} React concepts you will need to know</h2>
     </header>
